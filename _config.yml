@@ -2,7 +2,7 @@ title: Activate Your Voice
 email: hello@activateyourvoice.co.uk
 description: "Speech and language therapy services"
 baseurl: ""
-url: "https://1foreverhdtest.github.io/activate-your-voice-website"
+url: "https://activate-your-voice.netlify.app"
 
 markdown: kramdown
 permalink: pretty
