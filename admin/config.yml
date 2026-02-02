@@ -2,6 +2,8 @@ backend:
   name: github
   repo: 1ForeverHDTest/activate-your-voice-website
   branch: main
+  base_url: https://activate-your-voice.netlify.app
+  auth_endpoint: auth
 
 media_folder: "assets/img"
 public_folder: "/assets/img"
