@@ -1,19 +1,26 @@
 :root {
-  --text: #1d1d1f;
-  --muted: #5f6368;
+  --text: #1f1f1f;
+  --muted: #5f6b7a;
   --bg: #ffffff;
-  --accent: #5b4bdb;
+  --accent: #5c5bd9;
+  --accent-dark: #403fb0;
   --border: #e6e8eb;
+  --surface: #f7f7fb;
 }
 
 * { box-sizing: border-box; }
 
 body {
   margin: 0;
-  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-family: "Poppins", system-ui, -apple-system, "Segoe UI", sans-serif;
   color: var(--text);
   background: var(--bg);
-  line-height: 1.6;
+  line-height: 1.7;
+}
+
+h1, h2, h3 {
+  font-family: "Playfair Display", "Poppins", system-ui, -apple-system, "Segoe UI", sans-serif;
+  letter-spacing: -0.02em;
 }
 
 .container {
@@ -24,6 +31,9 @@ body {
 .site-header {
   border-bottom: 1px solid var(--border);
   background: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 
 .site-header .container {
@@ -43,12 +53,13 @@ body {
   margin-left: 1rem;
   text-decoration: none;
   color: var(--muted);
+  font-weight: 500;
 }
 
 .nav a:hover { color: var(--text); }
 
 .site-main {
-  padding: 2.5rem 0 3rem;
+  padding: 2rem 0 3rem;
 }
 
 .eyebrow {
@@ -60,8 +71,9 @@ body {
 }
 
 .hero {
-  padding: 2.5rem 0 3rem;
+  padding: 3.5rem 0;
   border-bottom: 1px solid var(--border);
+  background: linear-gradient(180deg, #ffffff 0%, #f6f7ff 100%);
 }
 
 .hero__content {
@@ -73,9 +85,10 @@ body {
   margin-top: 1rem;
   background: var(--accent);
   color: #fff;
-  padding: 0.7rem 1rem;
-  border-radius: 8px;
+  padding: 0.75rem 1.2rem;
+  border-radius: 999px;
   text-decoration: none;
+  font-weight: 600;
 }
 
 .btn--ghost {
@@ -86,7 +99,7 @@ body {
 }
 
 .section {
-  padding: 2.5rem 0;
+  padding: 3rem 0;
   border-bottom: 1px solid var(--border);
 }
 
@@ -117,8 +130,9 @@ body {
 
 .callout {
   text-align: center;
-  background: #f8f9fb;
-  border-radius: 16px;
+  background: var(--surface);
+  border-radius: 20px;
+  padding: 2.5rem 1.5rem;
 }
 
 .button-row {
@@ -132,10 +146,11 @@ body {
 
 .testimonials blockquote {
   margin: 0;
-  padding: 1rem 1.25rem;
-  border-left: 3px solid var(--accent);
-  background: #fafbff;
-  border-radius: 8px;
+  padding: 1.2rem 1.4rem;
+  border-left: 4px solid var(--accent);
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(30, 35, 90, 0.06);
 }
 
 .testimonials span {

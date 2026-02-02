@@ -22,7 +22,7 @@ layout: page
 			<p>We offer bespoke coaching, either on a one-to-one basis or as a workshop. Sessions are confidential and tailored to suit your needs, giving you the tools and techniques to achieve your goals.</p>
 		</div>
 		<div>
-			<img src="https://www.activateyourvoice.co.uk/wp-content/uploads/2023/02/public-speaking-business-uai-2000x1333.jpg" alt="Public Speaking Training" />
+			<img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1200&q=80" alt="Public speaking training" />
 		</div>
 	</div>
 </section>
@@ -72,7 +72,7 @@ layout: page
 			</div>
 		</div>
 		<div>
-			<img src="https://www.activateyourvoice.co.uk/wp-content/uploads/2021/03/online-voice-coaching-lessons-activate-your-voice-uai-2000x1333.jpg" alt="Online Voice Coaching" />
+			<img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80" alt="Online coaching session" />
 		</div>
 	</div>
 </section>
