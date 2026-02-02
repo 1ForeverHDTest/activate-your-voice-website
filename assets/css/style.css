@@ -1,0 +1,132 @@
+:root {
+  --text: #1d1d1f;
+  --muted: #5f6368;
+  --bg: #ffffff;
+  --accent: #5b4bdb;
+  --border: #e6e8eb;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  color: var(--text);
+  background: var(--bg);
+  line-height: 1.6;
+}
+
+.container {
+  width: min(100% - 2rem, 1100px);
+  margin: 0 auto;
+}
+
+.site-header {
+  border-bottom: 1px solid var(--border);
+  background: #fff;
+}
+
+.site-header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.logo {
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--text);
+}
+
+.nav a {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: var(--muted);
+}
+
+.nav a:hover { color: var(--text); }
+
+.site-main {
+  padding: 2.5rem 0 3rem;
+}
+
+.page h1 {
+  margin-top: 0;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.team-card {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1rem;
+  text-decoration: none;
+  color: inherit;
+  background: #fff;
+}
+
+.team-card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 0.75rem;
+}
+
+.team-member__header {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.team-member__photo {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.blog-card {
+  border-bottom: 1px solid var(--border);
+  padding: 1rem 0;
+}
+
+.post-meta {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.contact-form {
+  display: grid;
+  gap: 0.75rem;
+  max-width: 520px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.6rem 0.7rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  font: inherit;
+}
+
+.contact-form button {
+  border: 0;
+  background: var(--accent);
+  color: #fff;
+  padding: 0.7rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.site-footer {
+  border-top: 1px solid var(--border);
+  padding: 1.5rem 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+}

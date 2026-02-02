@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<article class="team-member">
+  <div class="team-member__header">
+    {% if page.photo %}
+      <img class="team-member__photo" src="{{ page.photo | relative_url }}" alt="{{ page.name }}" />
+    {% endif %}
+    <div>
+      <h1>{{ page.name }}</h1>
+      <p class="team-member__role">{{ page.role }}</p>
+    </div>
+  </div>
+  <div class="team-member__bio">
+    {{ content }}
+  </div>
+</article>

@@ -1,0 +1,30 @@
+title: Activate Your Voice
+email: hello@activateyourvoice.co.uk
+description: "Speech and language therapy services"
+baseurl: ""
+url: "https://1foreverhdtest.github.io/activate-your-voice-website"
+
+markdown: kramdown
+permalink: pretty
+
+collections:
+  team:
+    output: true
+  blog:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "team"
+    values:
+      layout: team
+  - scope:
+      path: ""
+      type: "blog"
+    values:
+      layout: post
+  - scope:
+      path: ""
+    values:
+      layout: page
