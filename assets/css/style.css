@@ -51,6 +51,100 @@ body {
   padding: 2.5rem 0 3rem;
 }
 
+.eyebrow {
+  font-size: 0.85rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 0.5rem;
+}
+
+.hero {
+  padding: 2.5rem 0 3rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.hero__content {
+  max-width: 720px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  background: var(--accent);
+  color: #fff;
+  padding: 0.7rem 1rem;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.btn--ghost {
+  background: transparent;
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  margin-left: 0.5rem;
+}
+
+.section {
+  padding: 2.5rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.two-col {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  align-items: center;
+}
+
+.two-col img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.checklist {
+  list-style: none;
+  padding-left: 0;
+  display: grid;
+  gap: 0.6rem;
+}
+
+.checklist li::before {
+  content: "✓";
+  color: var(--accent);
+  margin-right: 0.5rem;
+}
+
+.callout {
+  text-align: center;
+  background: #f8f9fb;
+  border-radius: 16px;
+}
+
+.button-row {
+  margin-top: 1rem;
+}
+
+.testimonials {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.testimonials blockquote {
+  margin: 0;
+  padding: 1rem 1.25rem;
+  border-left: 3px solid var(--accent);
+  background: #fafbff;
+  border-radius: 8px;
+}
+
+.testimonials span {
+  display: block;
+  margin-top: 0.5rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
 .page h1 {
   margin-top: 0;
 }
